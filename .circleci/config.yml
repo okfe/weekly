@@ -28,7 +28,7 @@ jobs:
 
       - run: yarn install
       - run: pwd
-      - run: node ./build/
+      - run: node ./build/cli.js
 
       - save_cache:
           paths:
