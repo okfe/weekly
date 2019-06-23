@@ -29,6 +29,9 @@ jobs:
       - run: yarn install
       - run: pwd
       - run: node ./build/cli.js
+      
+      # TODO: 上传至指定项目
+      # - run: 
 
       - save_cache:
           paths:
